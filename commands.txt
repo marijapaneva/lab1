@@ -1,0 +1,15 @@
+mkdir lab1
+cd
+git init
+notepad l1.txt
+git add l1.txt
+git commit -m"Initial commit"
+notepad l1.txt
+add l1.txt
+git log
+git remote add origin https://github.com/marijapaneva.lab1.git
+git push -f master
+git branch logging
+notepad log.txt
+add log.txt
+git log
